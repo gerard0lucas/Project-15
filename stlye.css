@@ -1,10 +1,9 @@
 *{
 margin: 0%;
 padding: 0%;
-background-color: aqua;
 }
 body{
-    background-color: rgb(30, 27, 27);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Varela Round', sans-serif;
 }
@@ -68,4 +67,157 @@ body{
 i{
     color: aliceblue;
     will-change: 100px;
+}
+.card-sec{
+    background: linear-gradient(90deg, #101010 50%, #000000 50%);
+}
+.cards{
+    display: flex;
+    padding: 100px 220px;
+    gap: 5rem;
+    
+}
+.card{
+    background-color: rgb(26, 26, 26);
+    padding: 50px;
+}
+.card .fa{
+    color: red;
+}
+.card h2{
+    margin-top: 30px;
+}
+.card p{
+margin: 20px 0;
+}
+.card span{
+    color: red;
+}
+#active-card{
+    background-color: rgb(184, 21, 21);
+}
+#active-card .fa,#active-card span{
+    color: white;
+}
+.status{
+    display: flex;
+    padding: 0px 220px 100px 220px ;
+    gap: 5rem;
+}
+.experience{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experience h1{
+    font-size:80px;
+    color: red;
+}
+.status-card{
+    background-color: rgb(26, 26, 26) ;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+}
+.status-row{
+    display: flex;
+}
+.status-card h3{
+    font-size: 40px;
+    color: red;
+    margin: 12px 0;
+}
+.status-card h5{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.mid-view{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid{
+    padding: 50px 210px;
+}
+.featured h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.view-all{
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    background-color:red;
+    cursor: pointer;
+}
+.mid-card-img img{
+    width: 450px;
+}
+.mid-card-img{
+    width: 530px;
+    height: 360px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-card h3{
+    margin: 10px 0;
+}
+.mid-card span{
+    color: red;
+    font-size: 14px;
+}
+.r1, .r2{
+    display: flex;
+    justify-content: space-between
+    ;
+}
+.mid-card
+{
+    margin-top: 40px;
+}
+.contact{
+    margin: 40px 170px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    padding: 50px;
+}
+.left-msg{
+    width: 650px;
+}
+.left-msg h2{
+    font-size: 35px;
+    width: 400px;
+}
+.left-msg p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.contact-btn{
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    background-color:red; 
+    margin-left: 150px; 
+    cursor: pointer;
+}
+footer{
+    padding: 50px;
+}
+.footer-lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;list-style: none;
+    gap: 2rem;
+}
+.footer-lists li{
+    font-size: 15px;
+    cursor: pointer;
 }
