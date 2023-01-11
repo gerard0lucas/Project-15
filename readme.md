@@ -6,7 +6,7 @@
 #### By Gerard Lucas
 ![line](./assets/images/rainbow.png)
 
-### Preview of project 15 👇
+### Preview of project 15👇
 
 ![screen shot](./assets/images/sc.png)
 ## **Things I learned from this Project ..**
